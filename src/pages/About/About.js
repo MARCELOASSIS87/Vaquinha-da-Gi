@@ -1,4 +1,4 @@
-// import pressao from "./src/aparelhodemedirpressao.jpeg"
+import pressao from "../aparelhodemedirpressao.jpeg"
 
 const About = () => {
   return (
@@ -7,7 +7,7 @@ const About = () => {
       <br /> conseguir comprar um estetoscópio e um esfigmomanometro <br />
       e um treino para meu cursos de desenvolvimento web
       </p>
-      <img src="./src/aparelhodemedirpressao.jpeg" alt="Aparelhos que ela precisa" />
+      <img src={pressao} alt="Aparelhos que ela precisa" />
     </div>
   )
 }

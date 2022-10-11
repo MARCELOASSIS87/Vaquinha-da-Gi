@@ -1,7 +1,9 @@
+import qrcode from "../qrcode.jpeg";
+
 const Qrcode = () => {
   return (
     <div>
-        <img src="./src/qrcode.jpeg" alt="Conta da giovanna para doação no valor desejado" />
+        <img src={qrcode} alt="Conta da giovanna para doação no valor desejado" />
     </div>
   )
 }
