@@ -1,4 +1,4 @@
-import pressao from '/home/marcelo/Documentos/Projetos/VaquinhaReact/vaquinha_da_gi/src/images/aparelhodemedirpressao.jpeg'
+// import pressao from "./src/aparelhodemedirpressao.jpeg"
 
 const About = () => {
   return (
@@ -7,7 +7,7 @@ const About = () => {
       <br /> conseguir comprar um estetoscópio e um esfigmomanometro <br />
       e um treino para meu cursos de desenvolvimento web
       </p>
-      <img src={pressao}></img> 
+      <img src="./src/aparelhodemedirpressao.jpeg" alt="Aparelhos que ela precisa" />
     </div>
   )
 }
